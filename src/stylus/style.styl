@@ -1,0 +1,29 @@
+@import "colors.styl"
+@import "helpers.styl"
+
+body
+    color lightslategrey
+
+    .application
+        .material-icons.user-drop-menu-icon
+            padding-left 15px
+
+        .card-large, .card-medium, .card-small
+            margin 0 auto
+
+        .card-large
+            max-width 760px
+
+        .card-medium
+            max-width 560px
+
+        .card-small
+            max-width 360px
+
+
+        @import "profile/login.styl"
+        @import "profile/password.styl"
+        @import "projects/list.styl"
+        @import "files/fileList.styl"
+        @import "files/fileActions.styl"
+        
